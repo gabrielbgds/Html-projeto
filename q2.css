@@ -1,0 +1,39 @@
+header {
+    background: linear-gradient(to left, #00b09b, #96c93d);
+  height: 10em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center ;
+  font-family: Arial;
+  color: #dceec8;
+}
+
+header h2 {
+  margin: 5em;
+}
+
+header h2 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header ul {
+  margin: 10em ;
+  list-style: none;
+}
+
+header nav ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+header nav ul .menuHighlight {
+  text-decoration: none;
+}
+
+main {
+  background-color:  #79e97d;
+  height: calc(100vh - 80px);
+}
+
